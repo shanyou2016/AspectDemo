@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  AspectDemo
+//
+//  Created by ug on 2020/5/19.
+//  Copyright © 2020 yy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define _NSString(fmt, ...)  [NSString stringWithFormat:(fmt), ##__VA_ARGS__]
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "NSObject+Utils.h"
+#import <MJExtension/MJExtension.h>
+#import <YYCategories/YYCategories.h>
+#import "NSArray+Utils.h"
+#import "configuration.h"
+#import "UIImage+YYgradientImage.h"
+#import "UIColor+Utils.h"
+#import "NSObject+AspectsHelper.h"
+#endif /* PrefixHeader_pch */
